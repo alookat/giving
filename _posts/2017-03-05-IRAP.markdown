@@ -1,0 +1,9 @@
+---
+layout: post
+title: IRAP
+subtitle: International Refugee Assistance Project.
+date: 2017-03-06 15:18:41 -0500
+categories: jekyll update
+active: true
+link: https://irap.urbanjustice.org/civicrm/contribute/transact?reset=1&id=13
+---

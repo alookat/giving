@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h1>What's happening in the world</h1>
+  <p>Week of Monday, March 6</p>
+  <ul>
+    <li><a href="https://www.nytimes.com/2017/03/04/world/africa/war-south-sudan.html">War Consumes South Sudan, a Young Nation Cracking Apart</a></li>
+    <li><a href="https://www.nytimes.com/2017/03/06/us/politics/supreme-court-transgender-rights-case.html">Supreme Court Won’t Hear Major Case on Transgender Rights</a></li>
+    <li><a href="https://www.nytimes.com/2017/03/06/us/politics/travel-ban-muslim-trump.html">Trump Issues a Travel Ban Altered to Stand Up in Court</a></li>
+  </ul>
+
+  {{ content }}
+
+<h1>Who to donate to</h1>
+<!-- <p>Updated weekly</p> -->
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% if post.active %}
+      <li>
+        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+
+        <h2>
+          <a class="post-link" href="{{ post.link }}">{{ post.title | escape }}</a>
+        </h2>
+        <p>
+          {{ post.subtitle }}
+        </p>
+        <a href="{{ post.link }}">Donate to {{ post.title }}</a>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+
+</div>
