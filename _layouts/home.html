@@ -19,19 +19,7 @@ layout: default
           {{ post.title | escape }}
         </h2>
 
-        <h4>Related news</h4>
-        <ul>
-        {% for item in post.related-articles %}
-          <li>
-            <a href="{{ item.link }}">
-            {{ item.title }}<br><em>{{ item.publisher }}</em>
-            </a>
-          </li>
-        {% endfor %}
-        </ul>
-
-        <h3>Related charities</h3>
-        <ul>
+        <ul class="charities">
         {% for item in post.charities %}
           <li>
             <a href="{{ item.link }}">
@@ -40,6 +28,19 @@ layout: default
           </li>
         {% endfor %}
         </ul>
+
+        <br>
+        <h4>Related news</h4>
+        <ul class="news">
+        {% for item in post.related-articles %}
+          <li>
+            <a href="{{ item.link }}">
+            {{ item.title }}<br><span>{{ item.publisher }}</span>
+            </a>
+          </li>
+        {% endfor %}
+        </ul>
+        <br>
 
       </li>
       {% endif %}
