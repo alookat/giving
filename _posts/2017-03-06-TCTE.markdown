@@ -1,9 +1,0 @@
----
-layout: post
-title: NCTE
-subtitle: The National Center for Transgender Equality is a national social justice organization devoted to ending discrimination and violence against transgender people through education and advocacy on national issues of importance to transgender people.
-date: 2017-03-06 15:18:41 -0500
-categories: jekyll update
-active: true
-link: https://salsa4.salsalabs.com/o/51171/p/salsa/donation/common/public/?donate_page_KEY=8966
----
