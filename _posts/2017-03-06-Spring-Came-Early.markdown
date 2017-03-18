@@ -2,7 +2,12 @@
 layout: post
 title: February's Warmth, Brought to You by Climate Change
 date: 2017-03-06 15:18:41 -0500
+active: true
 
+hero-photo:
+  - publisher: NY Times
+    photo-url: "nyt-Spring Came Early. Scientists Say Climate Change Is a Culprit.png"
+    link: http://nyti.ms/2mmsLt2
 
 related-articles:
   - publisher: NY Times
@@ -11,7 +16,7 @@ related-articles:
   - publisher: Washington Post
     title: "Study: Climate change goosed odds of freakishly hot February"
     link: http://wapo.st/2mBGBbK
-active: true
+
 
 
 charities:
