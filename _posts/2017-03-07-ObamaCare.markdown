@@ -2,7 +2,12 @@
 layout: post
 title: Resistance grows in Senate to House ObamaCare repeal bill
 date: 2017-03-07 15:18:41 -0500
+active: true
 
+hero-photo:
+  - publisher: NPR
+    photo-url: "npr-Trump Won Big In House Conservatives' Districts.jpg"
+    link: https://n.pr/2mgGD6I
 
 related-articles:
   - publisher: Washington Post
@@ -11,8 +16,6 @@ related-articles:
   - publisher: NPR
     title: "Trump Won Big In House Conservatives' Districts — Will They Defy Him On Health Care?"
     link: https://n.pr/2mgGD6I
-active: true
-
 
 charities:
   - name: ACLU
